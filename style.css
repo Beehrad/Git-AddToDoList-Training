@@ -16,6 +16,10 @@ body{
     color: rgb(47, 199, 42);
 }
 
+li{
+    list-style-type: none;
+}
+
 .name{
     display: flex;
     flex-direction: column;
@@ -46,7 +50,7 @@ input{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    width: 350px;
     background-color: rgb(240, 240, 240);
     padding: 0 10px;
     margin-bottom: 10px;

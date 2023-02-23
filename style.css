@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(248, 248, 248);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+.container{
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 50px 5px;
+    background-color: rgb(255, 253, 136);
+    padding: 40px;
+    color: rgb(47, 199, 42);
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(190, 187, 0);
+
+}
+input{
+    width: 70%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgb(190, 187, 0);
+    padding-bottom: 20px;
+}
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    background-color: rgb(240, 240, 240);
+    padding: 0 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    color: black;
+    
+}
+
+button{
+    width: 50%;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    background-color: rgb(47, 199, 42);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px;
+    margin-top: 10px;
+    /* color: rgb(255, 253, 136); */
+    
+}
+
+span{
+    cursor: pointer;
+    color: brown;
+}
+
+h3{
+    color: black;
+}

@@ -1,12 +1,13 @@
 const input = document.querySelector(".input_name")
 const addBtn = document.querySelector(".subbtn")
-const clear = document.querySelector("clear")
+const clear = document.querySelector(".clear")
 const trash = document.querySelector(".fa-trash")
 const list = document.querySelector(".new")
 
 
 
 addBtn.addEventListener("click" , submit);
+clear.addEventListener("click" , löchen);
 
 function submit(e){
     e.preventDefault()
@@ -24,3 +25,8 @@ function submit(e){
     input.value = ""
     
 };
+
+function löchen(){
+    list.innerHTML = ""
+}
+
